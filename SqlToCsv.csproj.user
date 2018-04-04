@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>-i -s fr5green01 -d  Registers -f "testis/output_{1:#000}.csv" -q "SELECT TOP %2855%29 %28ROW_NUMBER%28%29 OVER %28ORDER BY SmsChannelId%29 - 1%29 / 10 _filenum, SmsChannelId, ChannelName FROM dbo.SmsChannel" -g "_filenum" -k "_filenum" -xx</StartArguments>
+  </PropertyGroup>
+</Project>
